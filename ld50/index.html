@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body style="background-color: #251a2b;">
+  <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/ld50build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/ld50build.data.gz",
-        frameworkUrl: buildUrl + "/ld50build.framework.js.gz",
-        codeUrl: buildUrl + "/ld50build.wasm.gz",
+        dataUrl: buildUrl + "/ld50build.data",
+        frameworkUrl: buildUrl + "/ld50build.framework.js",
+        codeUrl: buildUrl + "/ld50build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "LD50",
